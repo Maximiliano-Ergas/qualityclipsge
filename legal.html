@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QualityClipsGE Terms and Privacy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one readable column, sticky section switcher, scopes shown as a real table */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --fg: #1b1f27;
+  --muted: #5b6372;
+  --line: #dde1e8;
+  --accent: #2f5bd3;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12151b; --surface: #1a1e26; --fg: #e6e9ef; --muted: #9aa3b2; --line: #2c323d; --accent: #8aa8ff;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12151b; --surface: #1a1e26; --fg: #e6e9ef; --muted: #9aa3b2; --line: #2c323d; --accent: #8aa8ff;
+  color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg); font-family: var(--font-body);
+  font-size: 16px; line-height: 1.65;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 10; background: var(--surface);
+}
+.wrap {
+  max-width: 720px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+header.top { background: var(--surface); border-bottom: 1px solid var(--line); }
+header.top .wrap { padding-block: 40px 28px; display: grid; gap: 10px; }
+.eyebrow {
+  font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--muted);
+}
+h1 { font-size: clamp(28px, 5vw, 38px); line-height: 1.15; margin: 0; font-weight: 600; text-wrap: balance; }
+.lede { margin: 0; color: var(--muted); max-width: 62ch; }
+nav.sections {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--surface); border-bottom: 1px solid var(--line);
+}
+nav.sections .wrap { display: flex; gap: 6px; flex-wrap: wrap; padding-block: 10px; }
+nav.sections a {
+  font-size: 14px; font-weight: 500; color: var(--muted); text-decoration: none;
+  padding: 6px 12px; border-radius: 6px; border: 1px solid transparent;
+}
+nav.sections a:hover { color: var(--fg); border-color: var(--line); }
+nav.sections a:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+nav.sections a[aria-current="true"] { color: var(--accent); border-color: var(--accent); }
+main .wrap { padding-block: 32px 64px; display: grid; gap: 56px; }
+section { display: grid; gap: 14px; min-width: 0; scroll-margin-top: 72px; }
+h2 { font-size: 24px; line-height: 1.25; margin: 0; font-weight: 600; text-wrap: balance; }
+h3 { font-size: 17px; margin: 12px 0 0; font-weight: 600; }
+p, ul, ol { margin: 0; max-width: 68ch; }
+ul, ol { padding-left: 22px; display: grid; gap: 6px; }
+a { color: var(--accent); }
+.meta { font-family: var(--font-mono); font-size: 13px; color: var(--muted); }
+code { font-family: var(--font-mono); font-size: .9em; }
+.table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 14px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; color: var(--muted); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; }
+tr:last-child td { border-bottom: 0; }
+td code { white-space: nowrap; }
+.callout {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+  padding: 14px 16px; display: grid; gap: 6px;
+}
+footer .wrap { padding-block: 0 48px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="eyebrow">QualityClipsGE · Legal</div>
+    <h1>Terms of Service and Privacy Policy</h1>
+    <p class="lede">QualityClipsGE is a private desktop tool that turns live-stream recordings into short vertical clips and publishes them to the operator's own accounts on TikTok, YouTube and Instagram.</p>
+    <div class="meta">Effective date: November 11, 2026</div>
+  </div>
+</header>
+
+<nav class="sections" aria-label="Sections">
+  <div class="wrap">
+    <a href="#terms" data-sec="terms">Terms of Service</a>
+    <a href="#privacy" data-sec="privacy">Privacy Policy</a>
+    <a href="#data-deletion" data-sec="data-deletion">Data deletion</a>
+    <a href="#contact" data-sec="contact">Contact</a>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+
+    <section id="terms">
+      <h2>Terms of Service</h2>
+      <h3>1. What QualityClipsGE is</h3>
+      <p>QualityClipsGE ("the app") is software run on its operator's own computer. It analyzes recordings of live streams, cuts short clips, adds captions, and uploads those clips to social media accounts that belong to the operator. QualityClipsGE is not offered to the public and has no user sign-up.</p>
+      <h3>2. Who may use it</h3>
+      <p>Only the operator and people the operator authorizes may use QualityClipsGE, and only with accounts they own or are allowed to manage. By connecting an account you confirm that you have the right to publish content to it.</p>
+      <h3>3. Your content and responsibilities</h3>
+      <ul>
+        <li>You are responsible for the clips you publish and for having the rights or permissions needed to publish them.</li>
+        <li>You must follow the rules of each platform you publish to, including the <a href="https://www.tiktok.com/legal/page/global/terms-of-service/en" target="_blank" rel="noopener">TikTok Terms of Service</a>, the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>, and the <a href="https://help.instagram.com/581066165581870" target="_blank" rel="noopener">Instagram Terms of Use</a>.</li>
+        <li>QualityClipsGE publishes only when you have connected an account and only the clips you have queued. You can stop publishing at any time by disconnecting the account.</li>
+      </ul>
+      <h3>4. YouTube API Services</h3>
+      <p>QualityClipsGE uses YouTube API Services to upload videos. By connecting a YouTube account you agree to be bound by the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>.</p>
+      <h3>5. No warranty</h3>
+      <p>QualityClipsGE is provided as is, without warranties of any kind. The operator is not liable for lost content, failed uploads, account restrictions imposed by a platform, or any indirect damages arising from use of the app.</p>
+      <h3>6. Changes</h3>
+      <p>These terms may be updated. The effective date at the top of this page shows when they last changed.</p>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy Policy</h2>
+      <p>QualityClipsGE has no servers, no user database and no analytics. Everything it stores stays on the operator's computer.</p>
+
+      <h3>Information QualityClipsGE accesses</h3>
+      <p>When you connect an account, QualityClipsGE requests only the permissions it needs to publish videos:</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Platform</th><th>Permissions requested</th><th>Used for</th></tr></thead>
+          <tbody>
+            <tr><td>TikTok</td><td><code>user.info.basic</code>, <code>video.upload</code>, <code>video.publish</code></td><td>Showing which account is connected; sending clips to that account's inbox as drafts or publishing them</td></tr>
+            <tr><td>YouTube</td><td><code>youtube.upload</code>, <code>youtube.readonly</code></td><td>Uploading clips as Shorts; showing the connected channel's name</td></tr>
+            <tr><td>Instagram / Facebook</td><td><code>instagram_basic</code>, <code>instagram_content_publish</code>, <code>pages_show_list</code>, <code>pages_read_engagement</code>, <code>business_management</code></td><td>Finding the Instagram professional account linked to your Facebook Page; publishing clips as Reels</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>From each platform QualityClipsGE keeps only: the access and refresh tokens the platform issues, and basic identifiers needed to post (account display name or username, TikTok open ID, YouTube channel name, Instagram account ID and linked Page name).</p>
+
+      <h3>How it is used</h3>
+      <ul>
+        <li>To upload the clips you queue, with their titles and hashtags, to the account you connected.</li>
+        <li>To show you which account is connected and whether each upload succeeded.</li>
+      </ul>
+      <p>QualityClipsGE does not read your followers, messages, comments, analytics or any other account data, and it does not use your data for advertising.</p>
+
+      <h3>Storage and sharing</h3>
+      <ul>
+        <li>Tokens and identifiers are stored in local files on the operator's computer. They are never sent to the operator or to any third party.</li>
+        <li>Data is shared only with the platform you are publishing to, and only as part of the upload you requested.</li>
+        <li>QualityClipsGE does not sell, rent or trade any personal information.</li>
+      </ul>
+
+      <h3>Google and YouTube</h3>
+      <p>QualityClipsGE's use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>. See also the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. You can revoke QualityClipsGE's access at any time from your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions page</a>.</p>
+
+      <h3>Retention</h3>
+      <p>Tokens are kept until you disconnect the account or revoke access. Rendered clips stay in the operator's own storage folder until the operator deletes them.</p>
+
+      <h3>Children</h3>
+      <p>QualityClipsGE is not directed at children under 13 and does not knowingly collect their information.</p>
+    </section>
+
+    <section id="data-deletion">
+      <h2>Data deletion</h2>
+      <p>You can remove every piece of data QualityClipsGE holds about your account in either of these ways:</p>
+      <ol>
+        <li>Revoke access on the platform. TikTok: Settings and privacy → Security and permissions → Apps and services. YouTube: <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions</a>. Instagram and Facebook: Settings → Apps and websites (Business integrations). Once access is revoked, the stored tokens stop working.</li>
+        <li>Ask the operator to delete your data using the contact below. The stored tokens and identifiers for your account are deleted within 7 days and you receive a confirmation.</li>
+      </ol>
+      <div class="callout">
+        <strong>What is deleted</strong>
+        <p>The access and refresh tokens for your account and the identifiers listed in the Privacy Policy. Videos already published to a platform remain on that platform until you delete them there.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Questions about these terms, privacy or data deletion: write to the operator of QualityClipsGE at the email address below.</p>
+      <div class="callout"><p class="meta" id="contact-email">clipping.agbmec@gmail.com</p></div>
+    </section>
+
+  </div>
+</main>
+
+<footer><div class="wrap">QualityClipsGE · Terms of Service and Privacy Policy · Effective November 11, 2026</div></footer>
+
+<script>
+(function () {
+  var links = document.querySelectorAll('nav.sections a');
+  function mark() {
+    var h = (location.hash || '#terms').slice(1);
+    links.forEach(function (a) { a.setAttribute('aria-current', a.dataset.sec === h ? 'true' : 'false'); });
+  }
+  window.addEventListener('hashchange', mark);
+  mark();
+})();
+</script>
+</body>
+</html>
